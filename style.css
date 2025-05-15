@@ -1,8 +1,8 @@
 body {
     font-family: 'Arial', sans-serif;
-    background: #f0f4f8;
+    background: #F9FBFD;
     margin: 0;
-    text-align: left;
+    text-align: center;
 }
 
 .container {
@@ -11,7 +11,12 @@ body {
     padding: 30px;
     background: #ffffff;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -30,6 +35,8 @@ p, li {
 }
 
 ul {
+    text-align: left;
+    display: inline-block;
     padding-left: 20px;
 }
 
@@ -47,5 +54,4 @@ footer {
     margin-top: 40px;
     font-size: 14px;
     color: #999999;
-    text-align: center;
 }
